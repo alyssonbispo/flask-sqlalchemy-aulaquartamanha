@@ -5,7 +5,7 @@ import json
 
 
 app = Flask(__name__) 
-app.config["SQLALCHEMY_DATABASE_URI"] = os.environ['DATABASE_URL']
+app.config["SQLALCHEMY_DATABASE_URI"] = os.environ['DATABASE_URL2']
 db = SQLAlchemy(app)
 
 
